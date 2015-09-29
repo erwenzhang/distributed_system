@@ -1,0 +1,13 @@
+1.
+NAME1:WENWEN ZHANG   UT EID:wz3585 Email:wenwenzhang@utexas.edu
+NAME2:YUE ZHAO       UT EID:yz9234 Email:LiviaZhao@utexas.edu
+
+2.Compilation instruction: 
+ javac -d bin -sourcepath src src/distributed_system/*.java
+ javac -d bin -sourcepath src src/client_side/*.java
+ cd  bin
+ java distributed_system.Server #
+ cd ../../client\ side/bin
+ java client_side.client
+
+ 3.Bugs: cannot handle complex situation.
